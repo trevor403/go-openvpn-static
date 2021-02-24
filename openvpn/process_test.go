@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/tunnel"
+	"github.com/trevor403/go-openvpn-static/openvpn/tunnel"
 
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/config"
 	"github.com/stretchr/testify/assert"
+	"github.com/trevor403/go-openvpn-static/openvpn/config"
 )
 
 // TestHelperProcess_Openvpn IS ESENTIAL FOR CMD MOCKING - DO NOT DELETE

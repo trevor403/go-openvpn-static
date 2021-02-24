@@ -25,7 +25,7 @@ import (
 	"github.com/magefile/mage/mg"
 	"github.com/magefile/mage/sh"
 	"github.com/mysteriumnetwork/go-ci/commands"
-	cicommands "github.com/mysteriumnetwork/go-openvpn/ci"
+	cicommands "github.com/trevor403/go-openvpn-static/ci"
 )
 
 const buildPath = "./build/morqa"
@@ -49,7 +49,7 @@ func Test() error {
 
 // Report generates goreport
 func GoReport() error {
-	return commands.GoReport("github.com/mysteriumnetwork/go-openvpn")
+	return commands.GoReport("github.com/trevor403/go-openvpn-static")
 }
 
 // Checks for issues with copyrights

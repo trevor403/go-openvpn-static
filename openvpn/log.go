@@ -19,7 +19,7 @@
 
 package openvpn
 
-import "github.com/mysteriumnetwork/go-openvpn/openvpn/log"
+import "github.com/trevor403/go-openvpn-static/openvpn/log"
 
 // UseLogger sets go-openvpn library logger.
 func UseLogger(l log.Logger) {

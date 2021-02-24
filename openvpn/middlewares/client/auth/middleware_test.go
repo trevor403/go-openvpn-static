@@ -22,8 +22,8 @@ package auth
 import (
 	"testing"
 
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/management"
 	"github.com/stretchr/testify/assert"
+	"github.com/trevor403/go-openvpn-static/openvpn/management"
 )
 
 func auth() (string, string, error) {

@@ -22,9 +22,9 @@ package filter
 import (
 	"testing"
 
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/management"
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/middlewares/server"
 	"github.com/stretchr/testify/assert"
+	"github.com/trevor403/go-openvpn-static/openvpn/management"
+	"github.com/trevor403/go-openvpn-static/openvpn/middlewares/server"
 )
 
 const (

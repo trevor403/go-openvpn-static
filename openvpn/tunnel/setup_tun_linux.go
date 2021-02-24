@@ -28,8 +28,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/config"
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/log"
+	"github.com/trevor403/go-openvpn-static/openvpn/config"
+	"github.com/trevor403/go-openvpn-static/openvpn/log"
 )
 
 // NewTunnelSetup returns a new tunnel setup for linux

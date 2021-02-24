@@ -22,9 +22,9 @@ package state
 import (
 	"testing"
 
-	"github.com/mysteriumnetwork/go-openvpn/openvpn"
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/management"
 	"github.com/stretchr/testify/assert"
+	"github.com/trevor403/go-openvpn-static/openvpn"
+	"github.com/trevor403/go-openvpn-static/openvpn/management"
 )
 
 func Test_Factory(t *testing.T) {

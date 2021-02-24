@@ -20,9 +20,9 @@
 package credentials
 
 import (
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/log"
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/middlewares/server"
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/middlewares/server/auth"
+	"github.com/trevor403/go-openvpn-static/openvpn/log"
+	"github.com/trevor403/go-openvpn-static/openvpn/middlewares/server"
+	"github.com/trevor403/go-openvpn-static/openvpn/middlewares/server/auth"
 )
 
 // Middleware is able to authorize incoming clients by given credentials validator callback.

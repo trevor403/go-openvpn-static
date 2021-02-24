@@ -2,7 +2,7 @@ stages:
   - test
 
 variables:
-  GO_PACKAGE: github.com/mysteriumnetwork/go-openvpn
+  GO_PACKAGE: github.com/trevor403/go-openvpn-static
   GIT_CLONE_PATH: /home/gitlab-runner/go/src/$GO_PACKAGE
   GOFLAGS: "-count=1" # Supersedes GOCACHE=off, see: https://github.com/golang/go/issues/29378#issuecomment-449383809
 

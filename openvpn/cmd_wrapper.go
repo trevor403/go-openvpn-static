@@ -26,7 +26,7 @@ import (
 	"os/exec"
 	"sync"
 
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/log"
+	"github.com/trevor403/go-openvpn-static/openvpn/log"
 )
 
 // CommandFunc represents the func for running external commands

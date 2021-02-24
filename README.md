@@ -1,7 +1,7 @@
 # go-openvpn
 
 [![pipeline status](https://gitlab.com/mysteriumnetwork/go-openvpn/badges/master/pipeline.svg)](https://gitlab.com/mysteriumnetwork/go-openvpn/pipelines)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mysteriumnetwork/go-openvpn)](https://goreportcard.com/report/github.com/mysteriumnetwork/go-openvpn)
+[![Go Report Card](https://goreportcard.com/badge/github.com/trevor403/go-openvpn-static)](https://goreportcard.com/report/github.com/trevor403/go-openvpn-static)
 
 Go gettable library for wrapping openvpn functionality in go way.
 There are two main options for openvpn integration:

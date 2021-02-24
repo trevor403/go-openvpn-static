@@ -27,7 +27,7 @@ docker run --rm \
     -e FLAG_RACE=false \
     -e FLAG_BUILDMODE=default \
     -e TARGETS=linux/amd64,darwin/amd64,windows/amd64 \
-    mysteriumnetwork/xgo:1.13.6 github.com/mysteriumnetwork/go-openvpn/examples/desktop
+    mysteriumnetwork/xgo:1.13.6 github.com/trevor403/go-openvpn-static/examples/desktop
 
 
 docker run --rm \
@@ -42,6 +42,6 @@ docker run --rm \
     -e TARGETS=android/* \
     -e EXT_GOPATH=/ext-go/1 \
     -e GO111MODULE=off \
-    mysteriumnetwork/xgomobile:1.13.6 github.com/mysteriumnetwork/go-openvpn/examples/mobile
+    mysteriumnetwork/xgomobile:1.13.6 github.com/trevor403/go-openvpn-static/examples/mobile
 
 verifyAndroidLib build/mobile.aar x86 x86_64 arm64-v8a armeabi-v7a

@@ -29,7 +29,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/log"
+	"github.com/trevor403/go-openvpn-static/openvpn/log"
 )
 
 // Addr struct represents local address on which listener waits for incoming management connections
